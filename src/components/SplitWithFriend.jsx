@@ -22,7 +22,7 @@ function SplitWithFriend({ selectedFriend, onSplitBill }) {
         <InputValue value={bill} set={setBill}>
           💰 Bill value
         </InputValue>
-        <InputValue value={paidByUser} set={setPaidByUser}>
+        <InputValue value={paidByUser} set={setPaidByUser} billVal={bill}>
           🧍‍♀️ Your expense
         </InputValue>
 
