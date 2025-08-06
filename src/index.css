@@ -118,7 +118,7 @@ form {
 }
 
 .form-add-friend {
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1.2fr 1.2fr;
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
@@ -142,7 +142,7 @@ select {
   font-family: inherit;
   color: inherit;
   font-size: 1.5rem;
-  padding: 0.7rem;
+  padding: 0.7rem 0;
   text-align: center;
   border: 1px solid var(--color-light);
   border-radius: 4px;
